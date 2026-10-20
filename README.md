@@ -1,11 +1,12 @@
 <div align="center">
-<div align="center">
 
 <img src="static/logo.png" alt="SecEngine Logo" width="160"/>
 
 # SecEngine
 
 ### Automated Web Security & Threat Detection Suite
+**IBM SkillsBuild Cyber Security 2026 · Conducted by BharatCares**  
+**Candidate Name:** Akshay Sharma | **Repository:** [CS-Bob-Project](https://github.com/AxeyTech/CS-Bob-Project)
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-2.3+-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
@@ -52,6 +53,30 @@ The UI features an animated particle-network hero, live SOC dashboard preview, g
 
 ---
 
+## Dataset & Threat Intelligence Reference
+
+SecEngine integrates heuristic datasets and corpora for evaluating web security and detecting social engineering threats:
+
+| Dataset / Reference | Format | Description | Direct Link |
+|---------------------|--------|-------------|-------------|
+| **Phishing URLs Dataset** | JSON | Benchmark of benign vs. phishing URLs with threat classifications | [datasets/sample_phishing_urls.json](datasets/sample_phishing_urls.json) |
+| **Phishing Messages Corpus** | JSON | Social engineering SMS & email templates categorized by psychological triggers | [datasets/sample_phishing_messages.json](datasets/sample_phishing_messages.json) |
+| **OWASP Secure Headers** | Standard | OWASP Secure Headers Project specifications and recommended values | [OWASP Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html) |
+| **MITRE ATT&CK T1566** | Framework | Adversary tactics for Phishing (Spearphishing Link, Spearphishing Attachment) | [MITRE ATT&CK T1566](https://attack.mitre.org/techniques/T1566/) |
+
+---
+
+## Submission Deliverables (IBM SkillsBuild & BharatCares)
+
+This project satisfies all requirements for the IBM SkillsBuild Cyber Security 2026 submission:
+
+- 📁 **Code File**: [`AkshaySharma_SecEngine.ipynb`](AkshaySharma_SecEngine.ipynb) (Interactive Jupyter Notebook) & [`AkshaySharma_SecEngine.py`](AkshaySharma_SecEngine.py)
+- 📋 **Requirements File**: [`requirements.txt`](requirements.txt)
+- 📄 **Project Report**: [`AkshaySharma_ProjectReport.docx`](AkshaySharma_ProjectReport.docx) (Microsoft Word format)
+- 📖 **README File**: [`README.md`](README.md) (Markdown format)
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
@@ -77,8 +102,8 @@ The UI features an animated particle-network hero, live SOC dashboard preview, g
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/secengine.git
-cd secengine
+git clone https://github.com/AxeyTech/CS-Bob-Project.git
+cd CS-Bob-Project
 
 # 2. (Optional) Create a virtual environment
 python -m venv venv

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "url": "http://192.168.1.1/paypal-login",
+    "threat_type": "Raw IP & Brand Impersonation",
+    "risk_level": "CRITICAL",
+    "targeted_brand": "paypal",
+    "flags": ["Host is a raw IP address", "Brand impersonation in unofficial domain", "Phishing keyword: login"]
+  },
+  {
+    "id": 2,
+    "url": "http://google-security-login.xyz/update",
+    "threat_type": "Brand Typosquatting & Suspicious TLD",
+    "risk_level": "CRITICAL",
+    "targeted_brand": "google",
+    "flags": ["Brand impersonation in unofficial domain", "Suspicious TLD: .xyz", "Phishing keyword: login, update"]
+  },
+  {
+    "id": 3,
+    "url": "http://sbi-netbanking-verify.top/kyc",
+    "threat_type": "Banking Phishing & TLD Abuse",
+    "risk_level": "CRITICAL",
+    "targeted_brand": "sbi",
+    "flags": ["Brand impersonation in unofficial domain", "Suspicious TLD: .top", "Phishing keyword: verify, kyc, banking"]
+  },
+  {
+    "id": 4,
+    "url": "http://netflix-billing-renew.click/signin",
+    "threat_type": "Subscription Renewal Scam",
+    "risk_level": "CRITICAL",
+    "targeted_brand": "netflix",
+    "flags": ["Brand impersonation in unofficial domain", "Suspicious TLD: .click", "Phishing keyword: signin"]
+  },
+  {
+    "id": 5,
+    "url": "https://google.com",
+    "threat_type": "Benign Official Domain",
+    "risk_level": "SAFE",
+    "targeted_brand": "google",
+    "flags": []
+  },
+  {
+    "id": 6,
+    "url": "https://paypal.com",
+    "threat_type": "Benign Official Domain",
+    "risk_level": "SAFE",
+    "targeted_brand": "paypal",
+    "flags": []
+  }
+]

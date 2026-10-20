@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "text": "SBI Alert: Your net banking account is suspended. Update your KYC within 24 hours immediately at http://bit.ly/sbi-sec to restore access.",
+    "threat_category": "Banking KYC Urgency Scam",
+    "risk_level": "HIGH RISK",
+    "detected_tactics": ["Urgency / Fear Tactics", "Credential Harvesting", "Shortened / Obfuscated Link"]
+  },
+  {
+    "id": 2,
+    "text": "Congratulations! You have won an exclusive Amazon cashback prize of Rs 25,000. Enter your OTP and verify PIN to claim now: http://bit.ly/cash-claim",
+    "threat_category": "Lottery & Cashback Financial Bait",
+    "risk_level": "HIGH RISK",
+    "detected_tactics": ["Financial Lure / Bait", "Credential Harvesting", "Shortened / Obfuscated Link"]
+  },
+  {
+    "id": 3,
+    "text": "Your Netflix subscription has expired. Payment failed. Immediate action required. Update payment details at http://tinyurl.com/renew-pay",
+    "threat_category": "Subscription Expiration Fear Scam",
+    "risk_level": "HIGH RISK",
+    "detected_tactics": ["Urgency / Fear Tactics", "Shortened / Obfuscated Link"]
+  },
+  {
+    "id": 4,
+    "text": "Hey Akshay, please find attached the quarterly project review slides for our team meeting on Friday.",
+    "threat_category": "Legitimate Benign Communication",
+    "risk_level": "SAFE",
+    "detected_tactics": []
+  }
+]
